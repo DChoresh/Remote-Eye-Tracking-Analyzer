@@ -1,0 +1,7 @@
+{
+  "host_ip": "10.0.0.7",
+  "port": 4242,
+  "commands": "commands",
+  "db_name": "DanielaTest",
+  "hz": 150
+}
