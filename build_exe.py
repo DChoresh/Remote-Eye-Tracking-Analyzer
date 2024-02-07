@@ -9,7 +9,7 @@ script = 'main.py'
 args = [script, '--onefile', '-n Gazepoint', '--distpath=EXE/', '--hidden-import=pyodbc']
 
 console = input('add a cmd console? y/n\n> ')
-if console == 'y':
+if console != 'y':
     args.append('--noconsole')
 
 run(args)
